@@ -135,6 +135,9 @@ _MTL_ENUM(NS::Integer, CounterSampleBufferError) {
     CounterSampleBufferErrorInternal = 2,
 };
 
+static const NS::UInteger CounterErrorValue = ((uint64_t)~0ULL);
+static const NS::UInteger CounterDontSample = ((uint64_t)-1);
+
 }
 
 _MTL_PRIVATE_DEF_STR(NS::ErrorDomain, CounterErrorDomain);
